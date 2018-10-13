@@ -1,4 +1,4 @@
-onst Discord = require("discord.js");
+const Discord = require("discord.js");
 
 module.exports.run = async (bot, message, args) => {
   let pages = ['[:white_check_mark:  Tüm Komutlar]\n\n[c!yardım]  •  Botun tüm komutlarını gösterir.\n[c!istatistik]  • Botun istatistiklerini gönderir.\n[c!avatar] •  Kendi avatarınızı veya etiketlediğiniz kişinin avatarını verir.\n[c!sunucubilgi]  •  Sunucu hakkında bilgi verir.\n[c!temizle] • Belirttiğiniz kadar mesajı siler.\n[c!canlıdestek] • Botun Sahibiyle Canlı Olarak Konuşursunuz.',  '[c!cowsay] • Bot Yazdıgınız Şeyi Cowsayla Yazar'];
